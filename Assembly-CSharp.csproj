@@ -228,6 +228,7 @@
      <Compile Include="Assets/UnityARInterface/ARRemote/Scripts/ARRemoteDevice.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Utils/IObservable.cs" />
      <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/ARPlaneAnchorGameObject.cs" />
+     <Compile Include="Assets/Scripts/SampleBone.cs" />
      <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARHitTestResultType.cs" />
      <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/UnityARSessionNativeInterface.cs" />
      <Compile Include="Assets/Mapbox/Unity/Location/AbstractEditorLocationProvider.cs" />
@@ -322,6 +323,7 @@
      <Compile Include="Assets/Mapbox/Unity/SourceLayers/ISubLayerLightStyle.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/Response/Feature.cs" />
      <Compile Include="Assets/Mapbox/Examples/1_DataExplorer/Scripts/TextMeshOutline.cs" />
+     <Compile Include="Assets/Scripts/ReturnToPreviousScene.cs" />
      <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARAnchorManager.cs" />
      <Compile Include="Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackingStateExtensions.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Utils/JsonConverters/JsonConverters.cs" />
@@ -538,6 +540,7 @@
      <Compile Include="Assets/Mapbox/Unity/Utilities/NodeEditorElementAttribute.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Resource.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Utils/PolylineUtils.cs" />
+     <Compile Include="Assets/Scripts/SpawnObjectInAR.cs" />
      <Compile Include="Assets/Mapbox/Unity/LayerProperties/PrefabItemOptions.cs" />
      <Compile Include="Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/HeightModifier.cs" />
      <Compile Include="Assets/Mapbox/Unity/DataContainers/ImageryRasterOptions.cs" />

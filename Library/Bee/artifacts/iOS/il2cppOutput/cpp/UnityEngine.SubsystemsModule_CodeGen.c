@@ -16,6 +16,9 @@ extern void IntegratedSubsystem_SetHandle_m22D17A2E0BD8AF0FC18CE09638572D34AD8DB
 extern void IntegratedSubsystem_Start_m2F871FE708687A50D8B078522D97C627D344CC34 (void);
 extern void IntegratedSubsystem_Stop_m4CFEE7A1C17893728205EAEEF9D5427622C794C4 (void);
 extern void IntegratedSubsystem_Destroy_m3D6593DA2CB876877A48778C7D2F782EEC473A08 (void);
+extern void IntegratedSubsystem_get_running_m18AA0D7AD1CB593DC9EE5F3DC79643717509D6E8 (void);
+extern void IntegratedSubsystem_get_valid_m6537B83457B7E79D9743A0EA9144BD116B0E850B (void);
+extern void IntegratedSubsystem_IsRunning_m6AF6106D2DA0A840DBA7D52E9D5F373658B66009 (void);
 extern void IntegratedSubsystem__ctor_m8A0E82CAFC72287502DB0158488C98831B2DF405 (void);
 extern void SubsystemBindings_DestroySubsystem_m601801D653E84DE619656D06A61357F3C9BC7456 (void);
 extern void IntegratedSubsystemDescriptor_get_id_m89DBA940C79ED7EFE1137E3EC4A5A53BF7052F15 (void);
@@ -64,12 +67,15 @@ extern void SubsystemWithProvider_set_running_mBEF44DA55F99B873A21E2003CDE06981E
 extern void SubsystemWithProvider_get_providerBase_m8229B40F322D44A2E22B0AD62C581D284813410A (void);
 extern void SubsystemWithProvider_set_providerBase_m0517BCC9991DC69C2AAF8C60AF96211BB5CAE14C (void);
 extern void SubsystemWithProvider__ctor_m7AAC2F13A01D674BF5040F42A08C88611FE60914 (void);
-static Il2CppMethodPointer s_methodPointers[98] = 
+static Il2CppMethodPointer s_methodPointers[104] = 
 {
 	IntegratedSubsystem_SetHandle_m22D17A2E0BD8AF0FC18CE09638572D34AD8DB48B,
 	IntegratedSubsystem_Start_m2F871FE708687A50D8B078522D97C627D344CC34,
 	IntegratedSubsystem_Stop_m4CFEE7A1C17893728205EAEEF9D5427622C794C4,
 	IntegratedSubsystem_Destroy_m3D6593DA2CB876877A48778C7D2F782EEC473A08,
+	IntegratedSubsystem_get_running_m18AA0D7AD1CB593DC9EE5F3DC79643717509D6E8,
+	IntegratedSubsystem_get_valid_m6537B83457B7E79D9743A0EA9144BD116B0E850B,
+	IntegratedSubsystem_IsRunning_m6AF6106D2DA0A840DBA7D52E9D5F373658B66009,
 	IntegratedSubsystem__ctor_m8A0E82CAFC72287502DB0158488C98831B2DF405,
 	NULL,
 	SubsystemBindings_DestroySubsystem_m601801D653E84DE619656D06A61357F3C9BC7456,
@@ -104,11 +110,14 @@ static Il2CppMethodPointer s_methodPointers[98] =
 	SubsystemManager_StaticConstructScriptingClassMap_m350147EEDFABFFADB6541B807F1A94337F8E2337,
 	SubsystemManager__cctor_m4B044EB8875B225C565E6FB10A2296C0E72BDE2F,
 	NULL,
+	NULL,
+	NULL,
 	SubsystemManager_GetIntegratedSubsystemByPtr_mC117FBE03DF764DB78D48B11AD5AC324F223BDE7,
 	SubsystemManager_RemoveIntegratedSubsystemByPtr_mBFD54C173F757CAF38E897250D05D517D08D4784,
 	SubsystemManager_AddStandaloneSubsystem_mBEE590C56742D1E540349BB4D225C265A145D722,
 	SubsystemManager_RemoveStandaloneSubsystem_m61CD473221C4A3210629379D92018723301E982A,
 	SubsystemManager_FindStandaloneSubsystemByDescriptor_m49CCAABC4FB6569333A0D54281EC885C5447BA4D,
+	NULL,
 	SubsystemManager_RemoveDeprecatedSubsystem_mBD8928FA7AE2FFC79D2768ED6F707FF61F65092D,
 	SubsystemDescriptorStore_InitializeManagedDescriptor_m74418769D7CDE1CED4F07A179A9173E6F0ECD12C,
 	SubsystemDescriptorStore_ClearManagedDescriptors_m14AEFE442EDDC8BD082F300C7054FE185E1EA1D5,
@@ -165,95 +174,101 @@ static Il2CppMethodPointer s_methodPointers[98] =
 	NULL,
 	NULL,
 };
-static const int32_t s_InvokerIndices[98] = 
+static const int32_t s_InvokerIndices[104] = 
 {
-	5943,
-	7517,
-	7517,
-	7517,
-	7517,
+	6328,
+	7981,
+	7981,
+	7981,
+	7729,
+	7729,
+	7729,
+	7981,
 	0,
-	11313,
-	7389,
-	7389,
+	11998,
+	7853,
+	7853,
 	0,
-	7517,
-	0,
-	0,
-	0,
-	10860,
-	11004,
+	7981,
 	0,
 	0,
 	0,
-	0,
-	0,
-	0,
-	0,
-	7517,
-	0,
-	7517,
-	7389,
-	7389,
-	0,
-	7517,
-	11316,
-	11551,
-	11551,
-	10331,
-	11551,
-	11551,
-	11551,
-	0,
-	11004,
-	11313,
-	11316,
-	10693,
-	11011,
-	10693,
-	10331,
-	11551,
-	11316,
-	11316,
-	0,
-	0,
-	0,
-	11316,
-	11551,
-	7389,
-	5943,
-	7389,
-	5943,
-	7389,
-	5943,
-	0,
-	7389,
-	0,
-	7517,
+	11529,
+	11681,
 	0,
 	0,
 	0,
 	0,
 	0,
-	7517,
+	0,
+	0,
+	7981,
+	0,
+	7981,
+	7853,
+	7853,
+	0,
+	7981,
+	12001,
+	12240,
+	12240,
+	10969,
+	12240,
+	12240,
+	12240,
+	0,
+	0,
+	0,
+	11681,
+	11998,
+	12001,
+	11361,
+	11688,
+	0,
+	11361,
+	10969,
+	12240,
+	12001,
+	12001,
+	0,
+	0,
+	0,
+	12001,
+	12240,
+	7853,
+	6328,
+	7853,
+	6328,
+	7853,
+	6328,
+	0,
+	7853,
+	0,
+	7981,
 	0,
 	0,
 	0,
 	0,
 	0,
-	7517,
-	0,
-	7517,
-	0,
-	7517,
-	0,
-	7269,
-	5828,
-	7389,
-	5943,
+	7981,
 	0,
 	0,
-	7517,
+	0,
+	0,
+	0,
+	7981,
+	0,
+	7981,
+	0,
+	7981,
+	0,
+	7729,
+	6209,
+	7853,
+	6328,
+	0,
+	0,
+	7981,
 	0,
 	0,
 	0,
@@ -266,20 +281,41 @@ static const int32_t s_InvokerIndices[98] =
 	0,
 	0,
 };
-static const Il2CppTokenRangePair s_rgctxIndices[7] = 
+static const Il2CppTokenRangePair s_rgctxIndices[10] = 
 {
 	{ 0x02000006, { 0, 2 } },
-	{ 0x02000010, { 29, 9 } },
-	{ 0x02000014, { 38, 12 } },
-	{ 0x06000026, { 2, 2 } },
-	{ 0x06000031, { 4, 5 } },
-	{ 0x06000032, { 9, 11 } },
-	{ 0x06000033, { 20, 9 } },
+	{ 0x02000010, { 47, 9 } },
+	{ 0x02000014, { 56, 12 } },
+	{ 0x06000029, { 2, 2 } },
+	{ 0x0600002A, { 4, 5 } },
+	{ 0x0600002B, { 9, 11 } },
+	{ 0x06000031, { 20, 2 } },
+	{ 0x06000037, { 22, 5 } },
+	{ 0x06000038, { 27, 11 } },
+	{ 0x06000039, { 38, 9 } },
 };
 extern const uint32_t g_rgctx_IntegratedSubsystemDescriptor_1_Create_m5973E509BE85C79B944AADEE93FD6D6E80940FE8;
 extern const uint32_t g_rgctx_TSubsystem_t75D38629E5B58BB4C8423B2F494B75E5F4509F1B;
 extern const uint32_t g_rgctx_List_1_t756D87A29C46D7F54BCF78323C3BE01F1DF1D882;
 extern const uint32_t g_rgctx_SubsystemDescriptorStore_GetSubsystemDescriptors_TisT_tC1C7E91EE3BF9F5F6CB6AEF844014EB2DFE9C857_m72893DE58B7F09F8306FD53372F4943E4D1A6235;
+extern const uint32_t g_rgctx_List_1_t4D4A4160AD6A5AF7BE63E6C9DDD4B2E4E331E8AD;
+extern const uint32_t g_rgctx_List_1_Clear_m263E9405C711E2BF06E72D12C60C6DB44FD83E60;
+extern const uint32_t g_rgctx_SubsystemManager_AddSubsystemSubset_TisIntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_TisT_tDA8CF8DB5D445E5A89CD2DFBC2B9ED34BCB9530F_mF59FD68FEE783E0B41376FE76BBC1FFF6272B9BD;
+extern const uint32_t g_rgctx_SubsystemManager_AddSubsystemSubset_TisSubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242_TisT_tDA8CF8DB5D445E5A89CD2DFBC2B9ED34BCB9530F_mA9B9EA7A26F0BD794305C36F90D912FB09D13AF4;
+extern const uint32_t g_rgctx_SubsystemManager_AddSubsystemSubset_TisSubsystem_t5E67EE95D848FB950AD5D76325BF8959A6F7C7D7_TisT_tDA8CF8DB5D445E5A89CD2DFBC2B9ED34BCB9530F_mF47B5DDB1454D28185458784A64E775F429B6323;
+extern const uint32_t g_rgctx_List_1_t42EEE63217C3960E15AECB9C4C3CE5EECCCBAF1C;
+extern const uint32_t g_rgctx_List_1_GetEnumerator_m013F5A56064946CBF17910146C227DA4584E88CF;
+extern const uint32_t g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411;
+extern const uint32_t g_rgctx_Enumerator_get_Current_mDCAF49959FBCA1A3A11C7A5BA8D6426D1D288AEA;
+extern const uint32_t g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411;
+extern const uint32_t g_rgctx_TBaseTypeInList_tF0CE0747D2F83FC3C38B2F057083EA0C63AC7C61;
+extern const uint32_t g_rgctx_TQueryType_tFAA6B5F209223336BB243BD708D59C43AF4A259B;
+extern const uint32_t g_rgctx_List_1_tC05347E9439A32B87668F876D0BCE11C446FACD1;
+extern const uint32_t g_rgctx_List_1_Add_m63BEFC493BABD8C0591479AB80B81127382FFA32;
+extern const uint32_t g_rgctx_Enumerator_MoveNext_m022E697D4613667FD4ABF9B1520381349E39C238;
+extern const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7;
+extern const uint32_t g_rgctx_List_1_t8ED80B742EB7A5E3A6396F80FD40C76081B74A4A;
+extern const uint32_t g_rgctx_SubsystemManager_GetSubsystems_TisT_tA2BB34A5254F7B52F2C218C16C9A0455942FC0F5_m53382D779438B0D7A18B1E6338DAD0F52008E1A4;
 extern const uint32_t g_rgctx_List_1_t5DD7719E13F31B5BF45151BEF17DF32705776E96;
 extern const uint32_t g_rgctx_List_1_Clear_m2ED0E9FF8A6F9DA2FCB64A1B7B67B060A69F2E7A;
 extern const uint32_t g_rgctx_SubsystemDescriptorStore_AddDescriptorSubset_TisIntegratedSubsystemDescriptor_t9232963B842E01748A8E032928DC8E35DF00C10D_TisT_t8393FFE949DF35B57AF7F85C46E8FE04A4D1BC1D_m3F4D63B5BC268B392F17036808985F63F5F2C6C2;
@@ -326,12 +362,30 @@ extern const uint32_t g_rgctx_SubsystemWithProvider_3_set_provider_m139E8A8E8AF6
 extern const uint32_t g_rgctx_SubsystemWithProvider_3_set_subsystemDescriptor_mD7D6B9847D664E1100AA9467FAAF82E101CB8E0C;
 extern const uint32_t g_rgctx_SubsystemWithProvider_3_OnCreate_mD74283A12D5D4FC397358732B086A5FDCD49C8B0;
 extern const uint32_t g_rgctx_SubsystemWithProvider_3_get_subsystemDescriptor_mCA2535C01B55FA21DBFE8D30A7A7F0BB1FB8A7A9;
-static const Il2CppRGCTXDefinition s_rgctxValues[50] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[68] = 
 {
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IntegratedSubsystemDescriptor_1_Create_m5973E509BE85C79B944AADEE93FD6D6E80940FE8 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TSubsystem_t75D38629E5B58BB4C8423B2F494B75E5F4509F1B },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t756D87A29C46D7F54BCF78323C3BE01F1DF1D882 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemDescriptorStore_GetSubsystemDescriptors_TisT_tC1C7E91EE3BF9F5F6CB6AEF844014EB2DFE9C857_m72893DE58B7F09F8306FD53372F4943E4D1A6235 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t4D4A4160AD6A5AF7BE63E6C9DDD4B2E4E331E8AD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Clear_m263E9405C711E2BF06E72D12C60C6DB44FD83E60 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemManager_AddSubsystemSubset_TisIntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_TisT_tDA8CF8DB5D445E5A89CD2DFBC2B9ED34BCB9530F_mF59FD68FEE783E0B41376FE76BBC1FFF6272B9BD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemManager_AddSubsystemSubset_TisSubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242_TisT_tDA8CF8DB5D445E5A89CD2DFBC2B9ED34BCB9530F_mA9B9EA7A26F0BD794305C36F90D912FB09D13AF4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemManager_AddSubsystemSubset_TisSubsystem_t5E67EE95D848FB950AD5D76325BF8959A6F7C7D7_TisT_tDA8CF8DB5D445E5A89CD2DFBC2B9ED34BCB9530F_mF47B5DDB1454D28185458784A64E775F429B6323 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t42EEE63217C3960E15AECB9C4C3CE5EECCCBAF1C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_GetEnumerator_m013F5A56064946CBF17910146C227DA4584E88CF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_get_Current_mDCAF49959FBCA1A3A11C7A5BA8D6426D1D288AEA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TBaseTypeInList_tF0CE0747D2F83FC3C38B2F057083EA0C63AC7C61 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TQueryType_tFAA6B5F209223336BB243BD708D59C43AF4A259B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tC05347E9439A32B87668F876D0BCE11C446FACD1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Add_m63BEFC493BABD8C0591479AB80B81127382FFA32 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_MoveNext_m022E697D4613667FD4ABF9B1520381349E39C238 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t8ED80B742EB7A5E3A6396F80FD40C76081B74A4A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemManager_GetSubsystems_TisT_tA2BB34A5254F7B52F2C218C16C9A0455942FC0F5_m53382D779438B0D7A18B1E6338DAD0F52008E1A4 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t5DD7719E13F31B5BF45151BEF17DF32705776E96 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Clear_m2ED0E9FF8A6F9DA2FCB64A1B7B67B060A69F2E7A },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemDescriptorStore_AddDescriptorSubset_TisIntegratedSubsystemDescriptor_t9232963B842E01748A8E032928DC8E35DF00C10D_TisT_t8393FFE949DF35B57AF7F85C46E8FE04A4D1BC1D_m3F4D63B5BC268B392F17036808985F63F5F2C6C2 },
@@ -383,16 +437,16 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGen
 const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule = 
 {
 	"UnityEngine.SubsystemsModule.dll",
-	98,
+	104,
 	s_methodPointers,
 	0,
 	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
-	7,
+	10,
 	s_rgctxIndices,
-	50,
+	68,
 	s_rgctxValues,
 	NULL,
 	NULL,

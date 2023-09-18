@@ -69,6 +69,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_XRModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_InputSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARFoundation_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARFoundation_InternalUtils_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARKit_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARKit_FaceTracking_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARSubsystems_CodeGenModule;
@@ -77,7 +78,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_Management_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[56] = 
+const Il2CppCodeGenModule* g_CodeGenModules[57] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_MapboxAccountsUnity_CodeGenModule),
@@ -128,6 +129,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[56] =
 	(&g_UnityEngine_XRModule_CodeGenModule),
 	(&g_Unity_InputSystem_CodeGenModule),
 	(&g_Unity_XR_ARFoundation_CodeGenModule),
+	(&g_Unity_XR_ARFoundation_InternalUtils_CodeGenModule),
 	(&g_Unity_XR_ARKit_CodeGenModule),
 	(&g_Unity_XR_ARKit_FaceTracking_CodeGenModule),
 	(&g_Unity_XR_ARSubsystems_CodeGenModule),
@@ -141,20 +143,20 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	44,
 	g_ReversePInvokeWrapperPointers,
-	55471,
+	59146,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	11568,
+	12269,
 	g_Il2CppInvokerPointers,
-	2348,
+	2495,
 	g_UnresolvedVirtualMethodPointers,
 	g_UnresolvedInstanceMethodPointers,
 	g_UnresolvedStaticMethodPointers,
-	667,
+	688,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	56,
+	57,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

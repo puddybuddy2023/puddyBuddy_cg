@@ -11,7 +11,7 @@
           {
             "name": "Animator",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -31,7 +31,7 @@
           {
             "name": "Avatar",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -50,7 +50,8 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -64,7 +65,8 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -101,7 +103,8 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -121,7 +124,8 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -141,7 +145,8 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -149,7 +154,7 @@
           {
             "name": "FlareLayer",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -163,7 +168,8 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -189,7 +195,8 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -197,7 +204,8 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -205,7 +213,7 @@
           {
             "name": "LightProbes",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -213,7 +221,7 @@
           {
             "name": "LightingSettings",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -221,7 +229,8 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -241,7 +250,8 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -249,7 +259,8 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -257,7 +268,8 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -265,7 +277,8 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -273,7 +286,8 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -287,7 +301,8 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -295,7 +310,8 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -327,7 +343,8 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -341,7 +358,8 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -373,7 +391,8 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -393,7 +412,8 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -407,7 +427,7 @@
           {
             "name": "SpriteRenderer",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -724,7 +744,8 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -732,7 +753,7 @@
           {
             "name": "CapsuleCollider",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -746,7 +767,7 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -766,7 +787,7 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1018,7 +1039,8 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1026,7 +1048,7 @@
           {
             "name": "TextMesh",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1069,7 +1091,8 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1077,7 +1100,7 @@
           {
             "name": "CanvasGroup",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1085,7 +1108,8 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Mapbox/Examples/0_PrefabScenes/Location-basedGame.unity"
+              "Assets/Scenes/ARScene.unity",
+              "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
