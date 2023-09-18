@@ -577,8 +577,8 @@ PlayerSettings:
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
   cameraUsageDescription: Required for augmented reality support.
-  locationUsageDescription: 
-  microphoneUsageDescription: 
+  locationUsageDescription: Required for augmented reality support.
+  microphoneUsageDescription: Required for augmented reality support.
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 10.13.0
   switchNMETAOverride: 

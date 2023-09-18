@@ -57,8 +57,8 @@
      <Compile Include="Assets/Mapbox/Unity/Editor/LayerModifierEditor.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/LayerPerformanceOptionsDrawer.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/FeatureSectionMultiColumnHeader.cs" />
-     <Compile Include="Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntry.cs" />
      <Compile Include="Assets/Mapbox/Core/cheap-ruler-cs/Tests/Editor/MapboxUnitTests_CheapRulerCs.cs" />
+     <Compile Include="Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntry.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/LineGeometryOptionsDrawer.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/MapboxConfigurationWindow.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/StyleOptionsDrawer.cs" />
@@ -72,9 +72,9 @@
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ImageryRasterOptionsDrawer.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/Build/Mapbox_iOS_build.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ElevationRequiredOptionsDrawer.cs" />
+     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_FileSource.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_Token.cs" />
      <Compile Include="Assets/Mapbox/Core/probe-extractor-cs/Tests/Editor/MapboxUnitTests_ProbeExtractorCs.cs" />
-     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_FileSource.cs" />
      <Compile Include="Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/FileMonitor.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/BehaviorModifiersSectionDrawer.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/FeatureTreeElement.cs" />
@@ -94,8 +94,8 @@
      <Compile Include="Assets/Mapbox/Unity/Editor/StyleSearchWindow.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_LonLatToGeoCoordinateConverter.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/GeocodeAttributeDrawer.cs" />
-     <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/GeometryMaterialOptionsDrawer.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/PrefabItemOptionsDrawer.cs" />
+     <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/GeometryMaterialOptionsDrawer.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/StyleSearchAttributeDrawer.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/FeatureBehaviourEditor.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/UnitTests/MapboxUnitTests_CircularBuffer.cs" />
@@ -112,8 +112,8 @@
      <Compile Include="Assets/Mapbox/Unity/Editor/PopupSelectionMenu.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/CoreVectorLayerPropertiesDrawer.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_Compression.cs" />
-     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_SQLiteCache.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/TreeViewWithTreeModel.cs" />
+     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_SQLiteCache.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/ScriptableCreatorWindow.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/GeocodeAttributeSearchWindow.cs" />
      <Compile Include="Assets/MapboxAR/Unity/Ar/Editor/Tests/MapboxUnitTests_AverageHeadingAlignmentStrategy.cs" />
@@ -130,9 +130,9 @@
      <Compile Include="Assets/Mapbox/Unity/Editor/MapManagerEditor.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_AngleSmoothing.cs" />
      <Compile Include="Assets/GoogleARCore/SDK/Scripts/Editor/BuildHelper.cs" />
-     <Compile Include="Assets/Mapbox/Unity/Editor/ScriptablePaletteEditor.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/LayerSourceOptionsDrawer.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_DirectionResource.cs" />
+     <Compile Include="Assets/Mapbox/Unity/Editor/ScriptablePaletteEditor.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_TileCover.cs" />
      <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_CanonicalTileId.cs" />
      <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/MaterialListDrawer.cs" />
@@ -408,8 +408,14 @@
     <Reference Include="UnityEditor.iOS.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2022.3.6f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Mapbox.VectorTile.Geometry">
+        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
         <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.PbfReader">
+        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
@@ -417,14 +423,29 @@
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
         <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Library/PackageCache/com.unity.collab-proxy@2.0.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="MapboxAccountsUnity">
+        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Library/PackageCache/com.unity.collab-proxy@2.0.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
         <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Library/PackageCache/com.unity.collab-proxy@2.0.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Mapbox.Json">
+        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
         <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.IO.Compression">
+        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.VectorTileReader">
+        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.ExtensionMethods">
+        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -434,27 +455,6 @@
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Library/PackageCache/com.unity.collab-proxy@2.0.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.Json">
-        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.IO.Compression">
-        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="MapboxAccountsUnity">
-        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.VectorTileReader">
-        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.Geometry">
-        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.PbfReader">
-        <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/Users/haejangjang/Desktop/puddybuddy/puddyBuddy_cg/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

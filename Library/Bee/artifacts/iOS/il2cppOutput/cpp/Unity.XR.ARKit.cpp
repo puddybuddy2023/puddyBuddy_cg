@@ -95,7 +95,6 @@ struct IReadOnlyDictionary_2_t97FD4FEBA26DC444E19159FCE117EB26780A1816;
 struct KeyValuePair_2_tC24A74EF64A292F5C6BA77D0B04CD6620D2DE3AC;
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
-struct List_1_tB88E7361EE76DFB3EBB7FCD60CC59ACC3E48C284;
 struct List_1_t65387FE114D984E6DCFF71774BFC19CEB318A9BE;
 struct List_1_tB62E7DBB1A743CF013D1542F79F59C2BB105B7AC;
 struct List_1_tDE8C3B426AF72FF013BD4E2E4C4660F30F1371DB;
@@ -2455,6 +2454,11 @@ struct XRReferenceImage_tB2544D6E18E55CD44F4EED1B0573A6A7154C1E2F_marshaled_com
 	Il2CppChar* ___m_Name;
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_Texture;
 };
+struct XRSessionSubsystem_t1E6E6CD0C279BA8BC4E4ED94E539552036B9C399  : public SubsystemWithProvider_3_tE0F8337476BBB744801608BD9EFE495479A39526
+{
+	ConfigurationChooser_t4DFAB6BE3767C3C5DA0E43FA16CD067009A487C2* ___m_DefaultConfigurationChooser;
+	ConfigurationChooser_t4DFAB6BE3767C3C5DA0E43FA16CD067009A487C2* ___m_ConfigurationChooser;
+};
 struct XRSessionUpdateParams_t7E03F47CA8C7ACECDA528B8F260C2EDD9D1C12F1 
 {
 	int32_t ___U3CscreenOrientationU3Ek__BackingField;
@@ -2635,6 +2639,10 @@ struct ARKitCameraSubsystem_t58078B7CF37039F847B383A46AE5C0C1CB7AE900  : public 
 };
 struct ARKitOcclusionSubsystem_tD7E1E5050F9930ABE2DC458CF623823A3A0B7B48  : public XROcclusionSubsystem_tAA1BB69ACF188D778FBC8EF5E7B427C6EB2F0C3C
 {
+};
+struct ARKitSessionSubsystem_tD70AFD32017AF902DBF6594B5B0418A4E46C3601  : public XRSessionSubsystem_t1E6E6CD0C279BA8BC4E4ED94E539552036B9C399
+{
+	ARKitSessionDelegate_tDCFB0E756EB06E2A79A88CFA07F80C3E7331A4BC* ___U3CsessionDelegateU3Ek__BackingField;
 };
 struct BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE 
 {
@@ -2894,11 +2902,6 @@ struct Action_2_t0697A6E42102D1C5ADF1AD5C29ACC2C647F6D7C1  : public MulticastDel
 struct Func_1_t778056BE8A070F696DB064AC7FBD1F996A928ED2  : public MulticastDelegate_t
 {
 };
-struct Nullable_1_tD8E0845D8BC45B99C32AB5E8655579F582F62B8D 
-{
-	bool ___hasValue;
-	Configuration_tF3E68F5793D5A997146A65AEAAC9B062BCAF0947 ___value;
-};
 struct ARKitAnchorSubsystem_t8D59904F1B5D2FDCDBB0C22FE0A9949105C486C3  : public XRAnchorSubsystem_tB8B108EFBD93D4AFD53DCE7BD599009F79D214AF
 {
 };
@@ -2969,7 +2972,6 @@ struct XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34  : public Inte
 {
 	Action_1_tC867D66471C553CFFF8707FF2C59FB7AAB03086A* ___trackingOriginUpdated;
 	Action_1_tC867D66471C553CFFF8707FF2C59FB7AAB03086A* ___boundaryChanged;
-	List_1_tB88E7361EE76DFB3EBB7FCD60CC59ACC3E48C284* ___m_DeviceIdsCache;
 };
 struct XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
 {
@@ -3026,18 +3028,8 @@ struct XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC  : public XRLoad
 {
 	Dictionary_2_tCDC65F572855EBDD1C12CEE33EBEBE0131F60C9C* ___m_SubsystemInstanceMap;
 };
-struct XRSessionSubsystem_t1E6E6CD0C279BA8BC4E4ED94E539552036B9C399  : public SubsystemWithProvider_3_tE0F8337476BBB744801608BD9EFE495479A39526
-{
-	Nullable_1_tD8E0845D8BC45B99C32AB5E8655579F582F62B8D ___U3CcurrentConfigurationU3Ek__BackingField;
-	ConfigurationChooser_t4DFAB6BE3767C3C5DA0E43FA16CD067009A487C2* ___m_DefaultConfigurationChooser;
-	ConfigurationChooser_t4DFAB6BE3767C3C5DA0E43FA16CD067009A487C2* ___m_ConfigurationChooser;
-};
 struct ARKitLoader_tADEA6A4F109DA5822480E5EB68971FF338E3418D  : public XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC
 {
-};
-struct ARKitSessionSubsystem_tD70AFD32017AF902DBF6594B5B0418A4E46C3601  : public XRSessionSubsystem_t1E6E6CD0C279BA8BC4E4ED94E539552036B9C399
-{
-	ARKitSessionDelegate_tDCFB0E756EB06E2A79A88CFA07F80C3E7331A4BC* ___U3CsessionDelegateU3Ek__BackingField;
 };
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 {
@@ -3232,6 +3224,10 @@ struct ARKitCameraSubsystem_t58078B7CF37039F847B383A46AE5C0C1CB7AE900_StaticFiel
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___k_BackgroundShaderKeywordsToNotCompile;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___backgroundShaderNames;
 };
+struct ARKitSessionSubsystem_tD70AFD32017AF902DBF6594B5B0418A4E46C3601_StaticFields
+{
+	OnAsyncConversionCompleteDelegate_tD5FD51626EC39F0569D6155E2CD240033A70EE96* ___s_OnAsyncWorldMapCompleted;
+};
 struct BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE_StaticFields
 {
 	BoundedPlane_tF51C315A8961EB42F0A1B60D47158646E5AF75CE ___s_Default;
@@ -3323,10 +3319,6 @@ struct ARKitLoader_tADEA6A4F109DA5822480E5EB68971FF338E3418D_StaticFields
 	List_1_t3D09B5A317B11F9E075244885D17EC10AF3301C2* ___s_OcclusionSubsystemDescriptors;
 	List_1_t4EB1B73C8DDBD534099637F220FA7D8AFC3D2DE4* ___s_ParticipantSubsystemDescriptors;
 	List_1_tA9571B7847EA1D73E7B431473A8F7D19B9786E22* ___s_MeshSubsystemDescriptors;
-};
-struct ARKitSessionSubsystem_tD70AFD32017AF902DBF6594B5B0418A4E46C3601_StaticFields
-{
-	OnAsyncConversionCompleteDelegate_tD5FD51626EC39F0569D6155E2CD240033A70EE96* ___s_OnAsyncWorldMapCompleted;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -10277,7 +10269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ARKitProvider_get_matchFrameRateEnabled_
 {
 	{
 		bool L_0;
-		L_0 = VirtualFuncInvoker0< bool >::Invoke(25, __this);
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(23, __this);
 		return L_0;
 	}
 }
@@ -12392,7 +12384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NSString_t0191BA1064CD5FA606A88A32045C88E6C52
 		L_1 = XRReferenceImageLibrary_get_dataStore_mDB5DF12926E7B9F0B02C43C376C23CA99A371F64(L_0, NULL);
 		NullCheck(L_1);
 		bool L_2;
-		L_2 = InterfaceFuncInvoker2< bool, String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** >::Invoke(1, IReadOnlyDictionary_2_t97FD4FEBA26DC444E19159FCE117EB26780A1816_il2cpp_TypeInfo_var, L_1, _stringLiteral6909D78C9B9AAB5A278269000AE309F2EDFCDFEB, (&V_0));
+		L_2 = InterfaceFuncInvoker2< bool, String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** >::Invoke(0, IReadOnlyDictionary_2_t97FD4FEBA26DC444E19159FCE117EB26780A1816_il2cpp_TypeInfo_var, L_1, _stringLiteral6909D78C9B9AAB5A278269000AE309F2EDFCDFEB, (&V_0));
 		if (!L_2)
 		{
 			goto IL_001f;
@@ -13436,7 +13428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NSBundle_t0BA04F85AFE6BB05F33F16826DE3C88358C
 		L_1 = XRReferenceImageLibrary_get_dataStore_mDB5DF12926E7B9F0B02C43C376C23CA99A371F64(L_0, NULL);
 		NullCheck(L_1);
 		bool L_2;
-		L_2 = InterfaceFuncInvoker2< bool, String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** >::Invoke(1, IReadOnlyDictionary_2_t97FD4FEBA26DC444E19159FCE117EB26780A1816_il2cpp_TypeInfo_var, L_1, _stringLiteral6909D78C9B9AAB5A278269000AE309F2EDFCDFEB, (&V_0));
+		L_2 = InterfaceFuncInvoker2< bool, String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** >::Invoke(0, IReadOnlyDictionary_2_t97FD4FEBA26DC444E19159FCE117EB26780A1816_il2cpp_TypeInfo_var, L_1, _stringLiteral6909D78C9B9AAB5A278269000AE309F2EDFCDFEB, (&V_0));
 		if (L_2)
 		{
 			goto IL_0020;
@@ -17855,7 +17847,7 @@ FINALLY_0034:
 		{
 			{
 				int32_t L_0;
-				L_0 = VirtualFuncInvoker0< int32_t >::Invoke(5, __this);
+				L_0 = VirtualFuncInvoker0< int32_t >::Invoke(4, __this);
 				V_0 = L_0;
 				V_1 = 0;
 				goto IL_0023_1;
@@ -18465,7 +18457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 		XRReferenceImage_tB2544D6E18E55CD44F4EED1B0573A6A7154C1E2F L_3 = ___3_referenceImage;
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_4 = ___4_inputDeps;
 		AddReferenceImageJobState_tCF90A84092F3D2A7536D1D28C9E6EC0D7F53937A L_5;
-		L_5 = VirtualFuncInvoker5< AddReferenceImageJobState_tCF90A84092F3D2A7536D1D28C9E6EC0D7F53937A, NativeSlice_1_tCEC4B2B900638EC1820BB61FE436766204DFD8DA, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A, int32_t, XRReferenceImage_tB2544D6E18E55CD44F4EED1B0573A6A7154C1E2F, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 >::Invoke(10, __this, L_0, L_1, L_2, L_3, L_4);
+		L_5 = VirtualFuncInvoker5< AddReferenceImageJobState_tCF90A84092F3D2A7536D1D28C9E6EC0D7F53937A, NativeSlice_1_tCEC4B2B900638EC1820BB61FE436766204DFD8DA, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A, int32_t, XRReferenceImage_tB2544D6E18E55CD44F4EED1B0573A6A7154C1E2F, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 >::Invoke(9, __this, L_0, L_1, L_2, L_3, L_4);
 		V_0 = L_5;
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_6;
 		L_6 = AddReferenceImageJobState_get_jobHandle_m02E9565D08C8156E799D1B852C14707856E6B12E_inline((&V_0), NULL);
@@ -18958,7 +18950,7 @@ IL_001f:
 		L_6 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_5, NULL);
 		NullCheck(L_6);
 		String_t* L_7;
-		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_6);
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_6);
 		String_t* L_8;
 		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral613041BC1E9D977B51D034A222856620A49BDB6B)), NULL);
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_9 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
@@ -22215,7 +22207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitProvider_Start_m797E5A4D008D203BFA8
 		L_2 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_1, NULL);
 		NullCheck(L_2);
 		String_t* L_3;
-		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_2);
+		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_2);
 		String_t* L_4;
 		L_4 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8F75ECDB116DCBBF6FC5A38C92B230BE664085FE)), L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral60B3375B7F69D26143C8EDC55A184541E18FFD78)), NULL);
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_5 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
@@ -22248,7 +22240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARKitProvider_Stop_m6C309F2DC166FBA9E469
 		L_2 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_1, NULL);
 		NullCheck(L_2);
 		String_t* L_3;
-		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_2);
+		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_2);
 		String_t* L_4;
 		L_4 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8F75ECDB116DCBBF6FC5A38C92B230BE664085FE)), L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral60B3375B7F69D26143C8EDC55A184541E18FFD78)), NULL);
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_5 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
@@ -22307,7 +22299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t2CDAB668CF6C2AB6D755F9C29
 		L_2 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_1, NULL);
 		NullCheck(L_2);
 		String_t* L_3;
-		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_2);
+		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_2);
 		String_t* L_4;
 		L_4 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8F75ECDB116DCBBF6FC5A38C92B230BE664085FE)), L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral60B3375B7F69D26143C8EDC55A184541E18FFD78)), NULL);
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_5 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
