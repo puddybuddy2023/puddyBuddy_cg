@@ -906,6 +906,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 6.0.0-pre.3
     compatible:
     - 5.0.6
     - 5.0.7
@@ -1134,6 +1135,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 6.0.0-pre.3
     compatible:
     - 5.0.6
     - 5.0.7
@@ -1394,6 +1396,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 6.0.0-pre.3
     compatible:
     - 5.0.6
     - 5.0.7
