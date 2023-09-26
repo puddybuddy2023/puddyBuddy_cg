@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class NewBehaviourScript : MonoBehaviour
+public class SampleBone : MonoBehaviour
 {
     public string sceneToLoad; // 이동할 씬의 이름
 

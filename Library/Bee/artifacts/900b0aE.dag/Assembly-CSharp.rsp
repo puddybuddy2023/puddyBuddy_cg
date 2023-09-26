@@ -859,6 +859,7 @@
 "Assets/MapboxAR/Unity/Ar/Utilities/PlotRoute.cs"
 "Assets/Scripts/ReturnToPreviousScene.cs"
 "Assets/Scripts/SampleBone.cs"
+"Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/SpawnObjectInAR.cs"
 "Assets/UnityARInterface/ARRemote/Scripts/ARRemoteDevice.cs"
 "Assets/UnityARInterface/ARRemote/Scripts/ARRemoteEditor.cs"
