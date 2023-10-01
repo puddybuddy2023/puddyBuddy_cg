@@ -414,6 +414,10 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.6f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/GoogleARCore/SDK/Scripts/Editor/ARCoreRequiredMenuItem.cs"
 "Assets/GoogleARCore/SDK/Scripts/Editor/BuildHelper.cs"
+"Assets/Import Asset/ThirdPartyAssets/WoLfulus/LineEnding/Editor/Enums.cs"
+"Assets/Import Asset/ThirdPartyAssets/WoLfulus/LineEnding/Editor/FileMonitor.cs"
+"Assets/Import Asset/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntries.cs"
+"Assets/Import Asset/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntry.cs"
 "Assets/Mapbox/Core/cheap-ruler-cs/Tests/Editor/MapboxUnitTests_CheapRulerCs.cs"
 "Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_AngleSmoothing.cs"
 "Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_BboxToGeoCoordinateBoundsConverter.cs"
@@ -508,10 +512,6 @@
 "Assets/Mapbox/Unity/Editor/UnitTests/MapboxUnitTests_CircularBuffer.cs"
 "Assets/Mapbox/Unity/Editor/VectorSubLayerTreeView.cs"
 "Assets/MapboxAR/Unity/Ar/Editor/Tests/MapboxUnitTests_AverageHeadingAlignmentStrategy.cs"
-"Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/Enums.cs"
-"Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/FileMonitor.cs"
-"Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntries.cs"
-"Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntry.cs"
 "Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Editor/UnityARBuildPostprocessor.cs"
 -langversion:9.0
 

@@ -138,6 +138,7 @@
     <Compile Include="Assets/Mapbox/Unity/SourceLayers/ISubLayerLineGeometryOptions.cs" />
     <Compile Include="Assets/MapboxAR/Scripts/ManualSync/UpdateMapPosByARPlaneY.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Cache/CachingWebFileSource.cs" />
+    <Compile Include="Assets/Import Asset/Supercyan Character Pack Free Sample/Scripts/FreeCameraLogic.cs" />
     <Compile Include="Assets/Mapbox/Unity/SourceLayers/SubLayerCustomStyleAtlasWithColorPallete.cs" />
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/Api/NativeSession.cs" />
     <Compile Include="Assets/Mapbox/Unity/DataContainers/ColliderOptions.cs" />
@@ -274,6 +275,7 @@
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/Api/PointCloudApi.cs" />
     <Compile Include="Assets/Mapbox/Unity/Location/UnityLocationWrappers/MapboxLocationServiceUnityWrapper.cs" />
     <Compile Include="Assets/Mapbox/Unity/MeshGeneration/Data/KdTree/KDNode.cs" />
+    <Compile Include="Assets/Scripts/Bone.cs" />
     <Compile Include="Assets/Mapbox/Unity/MeshGeneration/Factories/TerrainStrategies/ElevatedTerrainStrategy.cs" />
     <Compile Include="Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/TextureModifier.cs" />
     <Compile Include="Assets/Mapbox/Examples/Scripts/PositionWithLocationProvider.cs" />
@@ -495,6 +497,7 @@
     <Compile Include="Assets/Mapbox/Examples/1_DataExplorer/HighlightBuildings.cs" />
     <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARUserAnchorComponent.cs" />
     <Compile Include="Assets/UnityARKitPlugin/Examples/AddRemoveAnchorExample/UnityARUserAnchorExample.cs" />
+    <Compile Include="Assets/Scripts/SpawnRandomInMap.cs" />
     <Compile Include="Assets/Mapbox/Unity/MeshGeneration/Interfaces/LayerVisualizerBase.cs" />
     <Compile Include="Assets/Mapbox/Unity/Utilities/MapVisualizerPerformance.cs" />
     <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityPointCloudExample.cs" />
@@ -540,6 +543,7 @@
     <Compile Include="Assets/Mapbox/Unity/DataContainers/RangeAroundTransformTileProviderOptions.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/MapMatching/MapMatchingResponse.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Map/ClassicRetinaRasterTile.cs" />
+    <Compile Include="Assets/Import Asset/Supercyan Character Pack Free Sample/Scripts/DemoFree.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Directions/RoutingProfile.cs" />
     <Compile Include="Assets/UnityARKitPlugin/ARKitRemote/ConnectionMessageIds.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Cache/SQLiteCache/Tilesets.cs" />
@@ -547,6 +551,7 @@
     <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARLightEstimate.cs" />
     <Compile Include="Assets/Mapbox/Examples/Scripts/TrafficUvAnimator.cs" />
     <Compile Include="Assets/Mapbox/Unity/SourceLayers/ISubLayerCustomStyleOptions.cs" />
+    <Compile Include="Assets/Import Asset/Supercyan Character Pack Free Sample/Scripts/SimpleSampleCharacterControl.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Map/RawPngRasterTile.cs" />
     <Compile Include="Assets/Mapbox/Unity/Map/Interfaces/IMap.cs" />
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatus.cs" />
@@ -610,6 +615,7 @@
     <None Include="Assets/Mapbox/Shaders/MapboxStylesPerRenderer.shader" />
     <None Include="Assets/Mapbox/Unity/Location/ExampleGpsTraces/LocationProviderUnity.txt" />
     <None Include="Assets/Mapbox/link.xml" />
+    <None Include="Assets/Import Asset/Supercyan Character Pack Free Sample/Shaders/Legacy/CelShader.shader" />
     <None Include="Assets/Mapbox/Core/Plugins/sqlite/x64/sqlite3.dll" />
     <None Include="Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll" />
     <None Include="Assets/Mapbox/Core/Plugins/sqlite/x86/sqlite3.dll" />
@@ -617,6 +623,7 @@
     <None Include="Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll" />
     <None Include="Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/portable-net45+uap10/Mapbox.VectorTile.Geometry.dll" />
     <None Include="Assets/Mapbox/Shaders/MapboxStyles.shader" />
+    <None Include="Assets/Import Asset/Supercyan Character Pack Free Sample/Shaders/SupercyanShader.shader" />
     <None Include="Assets/UnityARInterface/Examples/Common/Shaders/MobileARShadow.shader" />
     <None Include="Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Portable/Mapbox.Json.dll" />
     <None Include="Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll" />
@@ -639,6 +646,7 @@
     <None Include="Assets/Mapbox/Core/Plugins/link.xml" />
     <None Include="Assets/Mapbox/Shaders/RasterWithTransparencyShader.shader" />
     <None Include="Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll" />
+    <None Include="Assets/Import Asset/Supercyan Character Pack Free Sample/Shaders/SupercyanShaderLighting.cginc" />
     <None Include="Assets/Mapbox/Fonts/OpenSansLic.txt" />
     <None Include="Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net4x/MapboxAccountsUnity.dll" />
     <None Include="Assets/UnityARKitPlugin/Examples/Common/Shaders/MobileOcclusion.shader" />
