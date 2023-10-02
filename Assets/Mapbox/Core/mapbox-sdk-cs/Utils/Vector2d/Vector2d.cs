@@ -3,8 +3,9 @@ namespace Mapbox.Utils
     using Mapbox.Json;
     using System;
 	using System.Globalization;
+    using UnityEngine;
 
-	[Serializable]
+    [Serializable]
 	public struct Vector2d
 	{
 		public const double kEpsilon = 1E-05d;
@@ -148,7 +149,12 @@ namespace Mapbox.Utils
 			return (double)Vector2d.SqrMagnitude(lhs - rhs) >= 0.0 / 1.0;
 		}
 
-		public void Set(double new_x, double new_y)
+        public static implicit operator Vector2d(Vector2 v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Set(double new_x, double new_y)
 		{
 			this.x = new_x;
 			this.y = new_y;

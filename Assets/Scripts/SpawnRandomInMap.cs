@@ -22,8 +22,10 @@ public class SpawnRandomInMap : MonoBehaviour
 
     private void Update()
     {
+        location = locationProvider.CurrentLocation.LatitudeLongitude;
         Vector3 _l = spawnedObject.transform.localPosition = map.GeoToWorldPosition(location, true);  // location위치에 오브젯트를 생성
-        Debug.Log(locationProvider.CurrentLocation.LatitudeLongitude[0]);
+        //Debug.Log(locationProvider.CurrentLocation.LatitudeLongitude[0]);
+        //Debug.Log(_l[0]);
     }
 
 

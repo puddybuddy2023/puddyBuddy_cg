@@ -104,6 +104,7 @@
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Utils/Vector2d/Mathd.cs" />
     <Compile Include="Assets/Mapbox/Unity/SourceLayers/ISubLayerCustomStyle.cs" />
     <Compile Include="Assets/UnityARKitPlugin/ARKitRemote/ARKitRemoteConnection.cs" />
+    <Compile Include="Assets/Scripts/MapCameraController.cs" />
     <Compile Include="Assets/UnityARKitPlugin/UnityARKitPluginSettings.cs" />
     <Compile Include="Assets/GoogleARCore/Examples/ComputerVision/Scripts/EdgeDetector.cs" />
     <Compile Include="Assets/Mapbox/Unity/Location/AngleSmoothing/AngleSmoothingLowPass.cs" />

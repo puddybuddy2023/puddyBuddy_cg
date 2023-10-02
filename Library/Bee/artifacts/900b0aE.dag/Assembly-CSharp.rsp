@@ -861,6 +861,7 @@
 "Assets/MapboxAR/Unity/Ar/SnapAlignmentStrategy.cs"
 "Assets/MapboxAR/Unity/Ar/Utilities/PlotRoute.cs"
 "Assets/Scripts/Bone.cs"
+"Assets/Scripts/MapCameraController.cs"
 "Assets/Scripts/ReturnToPreviousScene.cs"
 "Assets/Scripts/SampleBone.cs"
 "Assets/Scripts/SceneLoader.cs"
