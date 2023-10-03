@@ -434,6 +434,7 @@
     <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARKitControl.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Utils/JsonConverters/LonLatToGeoCoordinateConverter.cs" />
     <Compile Include="Assets/Mapbox/Unity/Location/UnityLocationWrappers/IMapboxLocationService.cs" />
+    <Compile Include="Assets/Scripts/SlimeMove.cs" />
     <Compile Include="Assets/Mapbox/Unity/SourceLayers/SubLayerCustomStyle.cs" />
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/LightEstimateState.cs" />
     <Compile Include="Assets/Mapbox/Examples/7_Globe/Scripts/SpawnOnGlobeExample.cs" />

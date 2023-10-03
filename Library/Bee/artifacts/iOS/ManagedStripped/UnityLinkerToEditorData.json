@@ -11,6 +11,7 @@
           {
             "name": "AnimationClip",
             "scenes": [
+              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
@@ -19,6 +20,7 @@
           {
             "name": "Animator",
             "scenes": [
+              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
@@ -27,6 +29,7 @@
           {
             "name": "AnimatorController",
             "scenes": [
+              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 1,
@@ -41,6 +44,7 @@
           {
             "name": "Avatar",
             "scenes": [
+              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,
@@ -422,6 +426,7 @@
           {
             "name": "SkinnedMeshRenderer",
             "scenes": [
+              "Assets/Scenes/ARScene.unity",
               "Assets/Scenes/MapScene.unity"
             ],
             "dependencyType": 0,

@@ -806,6 +806,7 @@
 "Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/ScreenScore.cs"
 "Assets/Scripts/SingleTone.cs"
+"Assets/Scripts/SlimeMove.cs"
 "Assets/Scripts/SpawnObjectInAR.cs"
 "Assets/Scripts/SpawnRandomInMap.cs"
 "Assets/UnityARInterface/ARRemote/Scripts/ARRemoteDevice.cs"
