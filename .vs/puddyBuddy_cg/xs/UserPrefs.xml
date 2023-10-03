@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{04326FD6-07A1-9593-830C-02BF1D138FC0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MapCameraController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/SceneLoader.cs" Line="14" Column="45" />
-      <File FileName="Assets/Scripts/SampleBone.cs" Line="14" Column="18" />
-      <File FileName="Assets/Scripts/Bone.cs" />
-      <File FileName="Assets/Scripts/SpawnRandomInMap.cs" />
-      <File FileName="Assets/Scripts/MapCameraController.cs" Line="20" Column="62" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" Line="15" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/Bone.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpawnRandomInMap.cs" Line="66" Column="1" />
+      <File FileName="Assets/Scripts/SingleTone.cs" Line="18" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +12,7 @@
           <Node name="puddyBuddy_cg" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="SceneLoader.cs" selected="True" />
+                <Node name="ScoreManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +22,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="85054c7d-cf55-4bd7-b130-af379f0c25fb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

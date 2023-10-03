@@ -382,6 +382,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 3.2.0-pre.5
+    - 3.2.0-pre.6
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -391,6 +392,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 3.2.0-pre.5
+    - 3.2.0-pre.6
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.6
@@ -906,6 +908,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
     - 6.0.0-pre.3
     compatible:
     - 5.0.6
@@ -918,6 +921,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
     recommended: 5.0.7
     deprecated: []
   dependencies:
@@ -1135,6 +1139,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
     - 6.0.0-pre.3
     compatible:
     - 5.0.6
@@ -1147,6 +1152,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
     recommended: 5.0.7
     deprecated: []
   dependencies:
@@ -1396,6 +1402,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
     - 6.0.0-pre.3
     compatible:
     - 5.0.6
@@ -1408,6 +1415,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.8
     - 5.1.0-pre.9
     - 5.1.0-pre.10
+    - 5.1.0
     recommended: 5.0.7
     deprecated: []
   dependencies:

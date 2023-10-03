@@ -225,6 +225,7 @@
     <Compile Include="Assets/Mapbox/Examples/Scripts/ImmediatePositionWithLocationProvider.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/MapMatching/MapMatchingResource.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/MapMatching/MapMatcher.cs" />
+    <Compile Include="Assets/Scripts/ScreenScore.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Cache/SQLiteCache/Tiles.cs" />
     <Compile Include="Assets/Mapbox/Unity/Location/AngleSmoothing/AngleSmoothingAbstractBase.cs" />
     <Compile Include="Assets/Mapbox/Examples/Scripts/LabelTextSetter.cs" />
@@ -274,9 +275,9 @@
     <Compile Include="Assets/Mapbox/Unity/MeshGeneration/Factories/ImageDataFetcher.cs" />
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/Api/ApiPoseData.cs" />
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/Api/PointCloudApi.cs" />
+    <Compile Include="Assets/Scripts/Bone.cs" />
     <Compile Include="Assets/Mapbox/Unity/Location/UnityLocationWrappers/MapboxLocationServiceUnityWrapper.cs" />
     <Compile Include="Assets/Mapbox/Unity/MeshGeneration/Data/KdTree/KDNode.cs" />
-    <Compile Include="Assets/Scripts/Bone.cs" />
     <Compile Include="Assets/Mapbox/Unity/MeshGeneration/Factories/TerrainStrategies/ElevatedTerrainStrategy.cs" />
     <Compile Include="Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/TextureModifier.cs" />
     <Compile Include="Assets/Mapbox/Examples/Scripts/PositionWithLocationProvider.cs" />
@@ -316,6 +317,7 @@
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Platform/FileSource.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Platform/IAsyncRequestFactory.cs" />
     <Compile Include="Assets/Mapbox/Unity/Location/AngleSmoothing/AngleSmoothingAverage.cs" />
+    <Compile Include="Assets/Scripts/ScoreManager.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/ReverseGeocodeResource.cs" />
     <Compile Include="Assets/Mapbox/Unity/LayerProperties/CoreVectorLayerProperties.cs" />
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/Utility/ConversionHelper.cs" />
@@ -549,6 +551,7 @@
     <Compile Include="Assets/UnityARKitPlugin/ARKitRemote/ConnectionMessageIds.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Cache/SQLiteCache/Tilesets.cs" />
     <Compile Include="Assets/Mapbox/Examples/Scripts/ReverseGeocodeUserInput.cs" />
+    <Compile Include="Assets/Scripts/SingleTone.cs" />
     <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARLightEstimate.cs" />
     <Compile Include="Assets/Mapbox/Examples/Scripts/TrafficUvAnimator.cs" />
     <Compile Include="Assets/Mapbox/Unity/SourceLayers/ISubLayerCustomStyleOptions.cs" />
@@ -578,6 +581,7 @@
     <Compile Include="Assets/Mapbox/Unity/SourceLayers/MapboxDefaultVector.cs" />
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackingState.cs" />
     <Compile Include="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARTrackingState.cs" />
+    <Compile Include="Assets/Scripts/MovingInAR.cs" />
     <Compile Include="Assets/UnityARInterface/Scripts/BoundedPlane.cs" />
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/Api/SessionApi.cs" />
     <Compile Include="Assets/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatusExtensions.cs" />

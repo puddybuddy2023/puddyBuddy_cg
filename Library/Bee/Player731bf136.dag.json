@@ -46630,7 +46630,7 @@
       "DisplayName": "Writing project.pbxproj",
       "ActionType": "WriteFile",
       "PayloadOffset": 151748,
-      "PayloadLength": 230855,
+      "PayloadLength": 230619,
       "PayloadDebugContentSnippet": "// !$*UTF8*$!\n{\n\tarchiveVersio",
       "Inputs": [],
       "Outputs": [
@@ -46642,7 +46642,7 @@
       "Annotation": "WriteText Build/Unity-iPhone.xcodeproj/xcshareddata/xcschemes/Unity-iPhone.xcscheme",
       "DisplayName": "Writing Unity-iPhone.xcscheme",
       "ActionType": "WriteFile",
-      "PayloadOffset": 382708,
+      "PayloadOffset": 382472,
       "PayloadLength": 3343,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
