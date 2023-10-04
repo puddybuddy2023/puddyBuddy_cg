@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{04326FD6-07A1-9593-830C-02BF1D138FC0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SingleTone.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SlimeMove.cs">
     <Files>
       <File FileName="Assets/Scripts/ScoreManager.cs" Line="15" Column="1" IsPinned="True" />
       <File FileName="Assets/Scripts/Bone.cs" />
       <File FileName="Assets/Scripts/SpawnRandomInMap.cs" />
-      <File FileName="Assets/Scripts/SingleTone.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editor/PostprocessScript.cs" Line="31" Column="1" />
+      <File FileName="Assets/Scripts/SingleTone.cs" />
+      <File FileName="Assets/Scripts/SlimeMove.cs" Line="25" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="puddyBuddy_cg" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Editor" expanded="True" />
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ScoreManager.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -22,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cd52b58d-a295-4d32-901d-5a693334c34f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7084b4c5-849e-43f9-bbf4-915881aa30d1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

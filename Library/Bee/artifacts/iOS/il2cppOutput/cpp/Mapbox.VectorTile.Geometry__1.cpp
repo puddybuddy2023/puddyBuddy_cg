@@ -21,6 +21,7 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct ClipperException_tD3C7FDAC3B10BAD36DEC8E9707F6EE62076BEF9A;
 
 IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ClipperException__ctor_m33F89DFCC7DCA8AAB9CDD5F462592A27A21902FF_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -146,9 +147,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClipperException__ctor_m33F89DFCC7DCA8AA
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ClipperException__ctor_m33F89DFCC7DCA8AAB9CDD5F462592A27A21902FF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ClipperException__ctor_m33F89DFCC7DCA8AAB9CDD5F462592A27A21902FF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___0_description;
 		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);

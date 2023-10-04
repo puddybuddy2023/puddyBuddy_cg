@@ -106,6 +106,7 @@
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_VectorTile.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_BboxToGeoCoordinateBoundsConverter.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_TileJSON.cs" />
+    <Compile Include="Assets/FlutterUnityIntegration/Editor/XCodePostBuild.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_PolylineToGeoCoordinateListConverter.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/EditorHelper.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/StyleSearchWindow.cs" />
@@ -116,6 +117,7 @@
     <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/StyleSearchAttributeDrawer.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/FeatureBehaviourEditor.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/UnitTests/MapboxUnitTests_CircularBuffer.cs" />
+    <Compile Include="Assets/FlutterUnityIntegration/Editor/SweetShellHelper.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/PointsOfInterestSubLayerPropertiesDrawer.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/CameraBoundsTileProviderOptionsDrawer.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/VectorFilterOptionsDrawer.cs" />
@@ -144,6 +146,7 @@
     <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ElevationModificationOptionsDrawer.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/TerrainColliderOptionsDrawer.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/UnityLayerOptionsDrawer.cs" />
+    <Compile Include="Assets/FlutterUnityIntegration/Editor/Build.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_BearingFilter.cs" />
     <Compile Include="Assets/Mapbox/Unity/Editor/MapManagerEditor.cs" />
     <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_AngleSmoothing.cs" />
@@ -439,6 +442,9 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>

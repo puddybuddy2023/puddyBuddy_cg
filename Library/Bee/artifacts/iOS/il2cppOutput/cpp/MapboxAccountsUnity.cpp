@@ -58,6 +58,18 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709
 IL2CPP_EXTERN_C String_t* _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
 IL2CPP_EXTERN_C String_t* _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024;
 IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountImpl_BaseEncoding_m36264188BFF1DE96EE56717341EC9D3CE065D956_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountImpl_GetNow_m075485685AB3F23A723CFEB37DA34F892F5CDFBD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountImpl_ObtainEncodedTimestamp_m14A172DBA3B46BCF531DF6180AA39B46A2D57C5A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountImpl_ObtainEncodedTimestamp_m4F6E023FA11F12B06633208397FFFE7358696B26_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountImpl_ObtainEndUserId_mB2087B7B08611AFD2D8466961C43CF57B3AD3B75_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountImpl_ObtainUnityMapsSkuToken_m0EC44F7B0816089A6E2B570B6503C20E95314CC9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountImpl_ObtainUnityMapsSkuUserToken_m4903BF24C8008BFF5401BC8CD8AE404D9E5E4D60_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountImpl_ToBase36_mB017D67A8039B39F51149F924273E6C3C5AD6BBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountImpl__ctor_m2F7049CAB25E541A3E4C5FD7C34FB91582F94700_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccountsConstants__cctor_m3A7D98BE772189C6FA4553EB35AC9AD9BE0F0DB0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccounts_ObtainMapsSkuUserToken_m524F7BCDD8A4A65584E2B546F448E4C5A22089FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MapboxAccounts__ctor_mE764E7B42D136E5D1F3A6F269103569D5CD83A2E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -392,6 +404,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double TimeSpan_get_TotalMilliseconds_m3506C1
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccounts_ObtainMapsSkuUserToken_m524F7BCDD8A4A65584E2B546F448E4C5A22089FD (MapboxAccounts_t51B1C63117E90717A95B37478EC876A265C06C06* __this, String_t* ___0_persistentPath, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccounts_ObtainMapsSkuUserToken_m524F7BCDD8A4A65584E2B546F448E4C5A22089FD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccounts_ObtainMapsSkuUserToken_m524F7BCDD8A4A65584E2B546F448E4C5A22089FD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MapboxAccountImpl_tCEDF95773F5131D170497DAFB68D6013CEE5F6F1* L_0 = __this->___mbxAccountManager;
 		String_t* L_1 = ___0_persistentPath;
@@ -407,8 +427,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapboxAccounts__ctor_mE764E7B42D136E5D1F
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl_tCEDF95773F5131D170497DAFB68D6013CEE5F6F1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccounts__ctor_mE764E7B42D136E5D1F3A6F269103569D5CD83A2E_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccounts__ctor_mE764E7B42D136E5D1F3A6F269103569D5CD83A2E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MapboxAccountImpl_tCEDF95773F5131D170497DAFB68D6013CEE5F6F1* L_0 = (MapboxAccountImpl_tCEDF95773F5131D170497DAFB68D6013CEE5F6F1*)il2cpp_codegen_object_new(MapboxAccountImpl_tCEDF95773F5131D170497DAFB68D6013CEE5F6F1_il2cpp_TypeInfo_var);
 		MapboxAccountImpl__ctor_m2F7049CAB25E541A3E4C5FD7C34FB91582F94700(L_0, NULL);
@@ -432,12 +455,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_ObtainUnityMapsSk
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl_ObtainUnityMapsSkuUserToken_m4903BF24C8008BFF5401BC8CD8AE404D9E5E4D60_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountsConstants_t1B1565763F31C8B7B6A9020BF006B52006E75DE0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountImpl_ObtainUnityMapsSkuUserToken_m4903BF24C8008BFF5401BC8CD8AE404D9E5E4D60_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = __this->____currentMapsSkuToken;
 		bool L_1;
@@ -495,6 +521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_ObtainUnityMapsSk
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl_ObtainUnityMapsSkuToken_m0EC44F7B0816089A6E2B570B6503C20E95314CC9_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55D06451987E3A98A35A3F47ACF98586F7C87E56);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA9E7065E0EA328DBBB8756D7236FECEE2458406A);
@@ -502,6 +529,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_ObtainUnityMapsSk
 	}
 	String_t* V_0 = NULL;
 	String_t* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountImpl_ObtainUnityMapsSkuToken_m0EC44F7B0816089A6E2B570B6503C20E95314CC9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___0_persistentPath;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
@@ -567,6 +596,14 @@ IL_0055:
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_ObtainEncodedTimestamp_m4F6E023FA11F12B06633208397FFFE7358696B26 (MapboxAccountImpl_tCEDF95773F5131D170497DAFB68D6013CEE5F6F1* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl_ObtainEncodedTimestamp_m4F6E023FA11F12B06633208397FFFE7358696B26_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountImpl_ObtainEncodedTimestamp_m4F6E023FA11F12B06633208397FFFE7358696B26_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0;
 		L_0 = MapboxAccountImpl_GetNow_m075485685AB3F23A723CFEB37DA34F892F5CDFBD(__this, NULL);
@@ -577,6 +614,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_ObtainEncodedTime
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_ObtainEncodedTimestamp_m14A172DBA3B46BCF531DF6180AA39B46A2D57C5A (MapboxAccountImpl_tCEDF95773F5131D170497DAFB68D6013CEE5F6F1* __this, int64_t ___0_timestamp, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl_ObtainEncodedTimestamp_m14A172DBA3B46BCF531DF6180AA39B46A2D57C5A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountImpl_ObtainEncodedTimestamp_m14A172DBA3B46BCF531DF6180AA39B46A2D57C5A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0 = ___0_timestamp;
 		String_t* L_1;
@@ -590,6 +635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_BaseEncoding_m362
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl_BaseEncoding_m36264188BFF1DE96EE56717341EC9D3CE065D956_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral594BF2A228409CFAB7A958781A96A6D32318E7DA);
@@ -597,6 +643,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_BaseEncoding_m362
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountImpl_BaseEncoding_m36264188BFF1DE96EE56717341EC9D3CE065D956_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0 = ___0_number;
 		if ((((int64_t)L_0) < ((int64_t)((int64_t)0))))
@@ -677,11 +725,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_ToBase36_mB017D67
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl_ToBase36_mB017D67A8039B39F51149F924273E6C3C5AD6BBF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral784D83E1899391C6AE99528B60BB27C284CECF0D);
 		s_Il2CppMethodInitialized = true;
 	}
 	StringBuilder_t* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountImpl_ToBase36_mB017D67A8039B39F51149F924273E6C3C5AD6BBF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m2619CA8D2C3476DF1A302D9D941498BB1C6164C5(L_0, ((int32_t)13), NULL);
@@ -690,6 +741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_ToBase36_mB017D67
 
 IL_0008:
 	{
+		CHECK_PAUSE_POINT;
 		StringBuilder_t* L_1 = V_0;
 		int64_t L_2 = ___0_value;
 		NullCheck(_stringLiteral784D83E1899391C6AE99528B60BB27C284CECF0D);
@@ -719,12 +771,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MapboxAccountImpl_ObtainEndUserId_m
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl_ObtainEndUserId_mB2087B7B08611AFD2D8466961C43CF57B3AD3B75_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
 	Guid_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountImpl_ObtainEndUserId_mB2087B7B08611AFD2D8466961C43CF57B3AD3B75_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Guid_t L_0;
 		L_0 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
@@ -743,6 +798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t MapboxAccountImpl_GetNow_m075485685AB
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl_GetNow_m075485685AB3F23A723CFEB37DA34F892F5CDFBD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -750,6 +806,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t MapboxAccountImpl_GetNow_m075485685AB
 	memset((&V_0), 0, sizeof(V_0));
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountImpl_GetNow_m075485685AB3F23A723CFEB37DA34F892F5CDFBD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0;
@@ -769,6 +827,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t MapboxAccountImpl_GetNow_m075485685AB
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapboxAccountImpl__ctor_m2F7049CAB25E541A3E4C5FD7C34FB91582F94700 (MapboxAccountImpl_tCEDF95773F5131D170497DAFB68D6013CEE5F6F1* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountImpl__ctor_m2F7049CAB25E541A3E4C5FD7C34FB91582F94700_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountImpl__ctor_m2F7049CAB25E541A3E4C5FD7C34FB91582F94700_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -787,11 +853,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapboxAccountsConstants__cctor_m3A7D98BE
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountsConstants__cctor_m3A7D98BE772189C6FA4553EB35AC9AD9BE0F0DB0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MapboxAccountsConstants_t1B1565763F31C8B7B6A9020BF006B52006E75DE0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7353C41C94834E4F94476B65695D9DD63DA5FAF5);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MapboxAccountsConstants__cctor_m3A7D98BE772189C6FA4553EB35AC9AD9BE0F0DB0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		((MapboxAccountsConstants_t1B1565763F31C8B7B6A9020BF006B52006E75DE0_StaticFields*)il2cpp_codegen_static_fields_for(MapboxAccountsConstants_t1B1565763F31C8B7B6A9020BF006B52006E75DE0_il2cpp_TypeInfo_var))->___RADIX = ((int32_t)36);
 		((MapboxAccountsConstants_t1B1565763F31C8B7B6A9020BF006B52006E75DE0_StaticFields*)il2cpp_codegen_static_fields_for(MapboxAccountsConstants_t1B1565763F31C8B7B6A9020BF006B52006E75DE0_il2cpp_TypeInfo_var))->___VERSION_1 = _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
@@ -807,6 +876,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapboxAccountsConstants__cctor_m3A7D98BE
 #endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____stringLength;
 		return L_0;
